@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0191_SimpleCalculator</string>
+    <string name="btnAdd">+</string>
+    <string name="btnSub">-</string>
+    <string name="btnMult">*</string>
+    <string name="btnDiv">/</string>
+</resources>

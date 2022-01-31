@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="count">cчёт</string>
+    <string name="_plus">+</string>
+    <string name="_minus">-</string>
+    <string name="_settings">Настройки</string>
+    <string name="_delete">Удалить</string>
+    <string name="_restart">Сброс</string>
+    <string name="_edit">Редактировать</string>
+    <string name="restart">Сброс</string>
+    <string name="back">Отмена</string>
+    <string name="alert_restart">Вы действительно хотите сбросить счётчик?</string>
+    <string name="alert">Вы действительно хотите сбросить счётчик?</string>
+    <string name="name">имя счётчика</string>
+    <string name="count_edit">Значение</string>
+    <string name="ok">применить</string>
+    <string name="name_edit">Название</string>
+    <string name="alert_delete">Вы действительно хотите удалить этот счётчик?</string>
+    <string name="settings_sound_text_short">Выключить звуки</string>
+    <string name="settings_sound_text_full">Выключить воиспроизведение звуков при изменени значений</string>
+    <string name="settings_vibration_text_short">Включить вибрацию</string>
+    <string name="settings_vibration_text_full">Вибрация при изменениях счётчика</string>
+    <string name="settings_hardware_buttons_text_short">Использовать аппаратные кнопки</string>
+    <string name="settings_hardware_buttons_text_full">Включить модификацию счётчика с помощью кнопок регулировки громкости</string>
+    <string name="settings_inc_click_text_short">Увеличивать при нажатии на значение</string>
+    <string name="settings_inc_click_text_full">Включить увеличение значения счётчика по нажатию на него</string>
+    <string name="todo">TODO</string>
+    <string name="settings_control_text">Управление</string>
+    <string name="settings_display_text">Дисплей</string>
+    <string name="style_text_short">Стиль</string>
+    <string name="style_text_full">Светлый</string>
+    <string name="display_on_text_short">Держать экран включенным</string>
+    <string name="display_on_text_full">Не выключать экран пока приложение активно</string>
+    <string name="settings_other_text">Прочее</string>
+    <string name="settings_delete_text">Удалить все счётчики</string>
+    <string name="settings_delete_full_text">Вы дейсвительно хотите удалить все счётчики?</string>
+    <string name="export_counters_text_short">Export counters</string>
+    <string name="export_counters_text_full">Export all counters in CSV format</string>
+    <string name="version_application_text_short">Версия приложения</string>
+    <string name="version_application_text_full">1</string>
+
+    <string-array name="screen_array">
+        <item>Screen 1</item>
+        <item>Screen 2</item>
+        <item>Screen 3</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="screen_one">Screen one</string>
+    <string name="screen_two">Screen two</string>
+    <string name="screen_three">Screen three</string>
+
+</resources>

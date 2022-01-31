@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:text="Управление"
+        android:textColor="@color/purple_500"
+        android:title="@string/settings_control_text">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_lock_silent_mode"
+            android:key="sound_check_box"
+            android:title="@string/settings_sound_text_short"
+            android:summary="@string/settings_sound_text_full"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_counter_vibration"
+            android:key="vibration_check_box"
+            android:title="@string/settings_vibration_text_short"
+            android:summary="@string/settings_vibration_text_full" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_counter_phone"
+            android:key="counter_phone_check_box"
+            android:title="@string/settings_hardware_buttons_text_short"
+            android:summary="@string/settings_hardware_buttons_text_full" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_counter_inc"
+            android:key="counter_inc_check_box"
+            android:title="@string/settings_inc_click_text_short"
+            android:summary="@string/settings_inc_click_text_full" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:text="@string/settings_display_text"
+        android:title="@string/settings_display_text">
+
+        <ListPreference
+            android:defaultValue="Светлый"
+            android:entries="@array/style"
+            android:entryValues="@array/style"
+            android:icon="@drawable/ic_counter_palette"
+            android:key="style_list"
+            android:title="@string/style_text_short"
+            android:summary="@string/style_text_full"
+            android:negativeButtonText="Отмена"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_counter_sun"
+            android:key="display_on_check_box"
+            android:title="@string/display_on_text_short"
+            android:summary="@string/display_on_text_full" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:text="@string/settings_other_text"
+        android:title="@string/settings_other_text">
+
+        <com.example.counter.DialogExPreference
+            android:icon="@android:drawable/ic_menu_delete"
+            android:key="settings_delete_2"
+            android:title="@string/settings_delete_text"
+            android:dialogMessage="@string/settings_delete_full_text"
+            android:positiveButtonText="Да"
+            android:negativeButtonText="Отмена"/>
+
+        <Preference
+            android:key="export_preference"
+            android:title="@string/export_counters_text_short"
+            android:summary="@string/export_counters_text_full"
+            android:icon="@android:drawable/ic_menu_share"
+            />
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:icon="@drawable/ic_counter_version"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/version_application_text_short"
+            android:summary="@string/version_application_text_full"
+            android:clickable="false"
+            android:enabled="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

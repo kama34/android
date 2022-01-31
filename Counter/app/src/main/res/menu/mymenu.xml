@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_restart"
+        android:icon="@drawable/ic_counter_restart"
+        app:showAsAction="ifRoom"
+        android:title="@string/_restart">
+    </item>
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_counter_edit"
+        android:title="@string/_edit"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/menu_delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_counter_delete"
+        android:title="@string/_delete">
+    </item>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/_settings">
+    </item>
+
+</menu>
